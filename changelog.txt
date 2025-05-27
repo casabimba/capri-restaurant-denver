@@ -1,0 +1,19 @@
+===================================================================
+v 1.1.0 - 9 September 2015
+-------------------------------------------------------------------
+UPDATE - Maps markers now retina sized for Google Maps API maps
+UPDATE - Maps can now use coordinates in the address attribute
+UPDATE - Maps can now be styled using external style generators
+UPDATE - Maps zoom level can now be set in Variant
+UPDATE - Mail sending script is now easier to read and customise
+UPDATE - Better handling of phone numbers in mail sending script
+
+Files affected:
+-------------------------------------------------------------------
+ADDED  - /mail/lib/mail_sender.php
+UPDATE - /mail/mail.php
+UPDATE - /docs/index.html
+UPDATE - /js/scripts.js - Maps API changes
+UPDATE - /img/mapmarker.png - now 300x300 for retina displays
+UPDATE - /variant/builder.html
+UPDATE - /variant/js/init.js
