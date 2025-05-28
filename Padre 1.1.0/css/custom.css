@@ -1,1 +1,26 @@
 /*!---------- Custom Styles Here ----------*/
+
+/* Reservation section styles */
+#reserve-section a,
+#reserve-section button {
+    background: #CE4750;
+    border-radius: 6px;
+    color: #fff;
+    margin: 0 6px 12px;
+    padding: 8px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+}
+#reserve-section a:focus,
+#reserve-section button:focus {
+    outline: none;
+    box-shadow: none;
+}
+@media (max-width: 767px) {
+    #reserve-section a,
+    #reserve-section button {
+        display: block;
+        margin: 0 auto 12px;
+    }
+}
