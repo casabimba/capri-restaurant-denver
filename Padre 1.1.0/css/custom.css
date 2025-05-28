@@ -2,10 +2,11 @@
 
 /* Reservation section styles */
 #reserve-section a,
-#reserve-section button {
-    background: #CE4750;
+#reserve-section button,
+#reserve-section [class*="sn"] {
+    background: #CE4750 !important;
     border-radius: 6px;
-    color: #fff;
+    color: #fff !important;
     margin: 0 8px 16px;
     padding: 10px 24px;
     border: none;
@@ -14,7 +15,8 @@
 }
 @media (max-width: 767px) {
     #reserve-section a,
-    #reserve-section button {
+    #reserve-section button,
+    #reserve-section [class*="sn"] {
         display: block;
         margin: 0 auto 16px;
     }
