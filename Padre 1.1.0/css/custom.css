@@ -14,11 +14,30 @@
     display: inline-block;
     margin: 6px 0;
 }
-@media (max-width: 767px) {
+#reserve-section a,
+#reserve-section button,
+#reserve-section [class*="sn"] {
+    display: inline-block;
+    margin: 8px 12px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
     #reserve-section a,
     #reserve-section button,
     #reserve-section [class*="sn"] {
         display: block;
-        margin: 0 auto 16px;
+        width: 80%;
+        margin: 12px auto;
+    }
+}
+
+@media (max-width: 600px) {
+    #reserve-section a,
+    #reserve-section button,
+    #reserve-section [class*="sn"] {
+        width: 100%;
+        font-size: 15px;
+        padding: 10px 16px;
     }
 }
