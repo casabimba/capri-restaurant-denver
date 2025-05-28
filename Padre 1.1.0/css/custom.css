@@ -1,18 +1,18 @@
 #reserve-section iframe,
 #reserve-section button,
 #reserve-section [class*="sn"] {
+    background: #E05861 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 14px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
     outline: none !important;
     box-shadow: none !important;
-    border: none !important;
-    background: #CE4750 !important;
-    color: #fff !important;
-    border-radius: 6px;
-    padding: 10px 24px;
-}
-#reserve-section a:focus,
-#reserve-section button:focus {
-    outline: none;
-    box-shadow: none;
+    display: inline-block;
+    margin: 6px 0;
 }
 @media (max-width: 767px) {
     #reserve-section a,
