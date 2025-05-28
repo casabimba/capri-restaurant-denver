@@ -1,13 +1,13 @@
+#reserve-section iframe,
 #reserve-section button,
 #reserve-section [class*="sn"] {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
     background: #CE4750 !important;
-    border-radius: 6px;
     color: #fff !important;
-    margin: 0 8px 16px;
+    border-radius: 6px;
     padding: 10px 24px;
-    border: none;
-    text-decoration: none;
-    display: inline-block;
 }
 #reserve-section a:focus,
 #reserve-section button:focus {
