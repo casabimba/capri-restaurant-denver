@@ -2,28 +2,21 @@
 
 /* Reservation section styles */
 #reserve-section a,
-#reserve-section button {
-    background: #E05861;
-    border-radius: 4px;
-    color: #fff;
-    margin: 0 8px 16px;
-    padding: 8px 20px;
-    border: none;
+#reserve-section button,
+#reserve-section iframe,
+#reserve-section [class*="sn"] {
+    background: #CE4750 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    outline: none !important;
+    box-shadow: none !important;
+    display: block;
+    margin: 12px auto;
+    width: 200px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    outline: none;
-    box-shadow: none;
-}
-#reserve-section a:focus,
-#reserve-section button:focus {
-    outline: none;
-    box-shadow: none;
-}
-@media (max-width: 767px) {
-    #reserve-section a,
-    #reserve-section button {
-        display: block;
-        margin: 0 auto 16px;
-    }
 }
